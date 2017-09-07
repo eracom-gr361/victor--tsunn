@@ -1,0 +1,46 @@
+/*
+ * Chargement des fontes
+ * Voir : http://cours-web.ch/css/typographie
+*/
+
+
+@font-face {
+    font-family: 'selectricroman';
+    src: url('../fonts/selectricroman.woff2') format('woff2'),
+         url('../fonts/selectricroman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'selectricmono';
+    src: url('../fonts/selectricmono.woff2') format('woff2'),
+         url('../fonts/selectricmono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html {
+	font-family: selectricroman, serif;
+}
+
+h1 {
+	font-family: selectricmono, monospace;
+}
+
+
+/*
+ * Définition du modèle de boîte
+ * Voir : http://cours-web.ch/css/box-model
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
