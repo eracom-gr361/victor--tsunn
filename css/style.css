@@ -22,15 +22,19 @@
 
 }
 
-
 html {
 	font-family: selectricroman, serif;
+	background: linear-gradient(135deg, aquamarine, pink);
 }
-
 h1 {
 	font-family: selectricmono, monospace;
+	background-color: #666;
+	color: red;
+	font-size: 2em;
 }
-
+p{
+	background-color: #999;
+}
 
 /*
  * Définition du modèle de boîte
@@ -43,4 +47,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
