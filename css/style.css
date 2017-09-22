@@ -54,9 +54,41 @@ line-height: 1.25em;
 /*border: solid black ;
 padding: 2%;*/
 }
-img{
+
+.image1{
 	max-width: 100%;
+	-webkit-filter: drop-shadow(5px 5px 5px black);
+	animation-name: grow;
+				animation-duration: 1s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
 }
+
+
+/*@keyframes pulse {*/
+			    0%, 100% {
+			        background-color: #ddd;
+			    }
+			    50% {
+			        transform: scale(1.5) rotate(90deg);
+			        background-color: orange;
+			    }
+			    100% {
+			        transform: scale(1) rotate(180deg);
+			    }
+
+
+@keyframes grow {
+
+				to {
+					transform: scale(1.2);
+					transform: translateX(25px);
+					background-color: green;
+					color: white;
+				}
+/*img:hover {
+    opacity: 0.5;
+}*/
 /*
  * Définition du modèle de boîte
  * Voir : http://cours-web.ch/css/box-model
