@@ -60,7 +60,7 @@ padding: 2%;*/
 	-webkit-filter: drop-shadow(5px 5px 5px black);
 	animation-name: grow;
 				animation-duration: 1s;
-				animation-iteration-count: infinite;
+				animation-iteration-count: 1;
 				animation-timing-function: linear;
 }
 
@@ -81,8 +81,8 @@ padding: 2%;*/
 @keyframes grow {
 
 				to {
-					transform: scale(1.2);
-					transform: translateX(25px);
+					transform: scale(1.1);
+					;
 					background-color: green;
 					color: white;
 				}
